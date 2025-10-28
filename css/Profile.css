@@ -1,0 +1,6 @@
+main {
+    flex-direction: column;
+}
+main div#text {
+    flex-direction: column;
+}

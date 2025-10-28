@@ -3,27 +3,28 @@
     <head>
         <title>Amalie Holten portfolio</title>
 
-        <!-- stylesheets ----------------------------- -->
+        <!-- stylesheets ------------------------------->
         <link rel="stylesheet" href="css/Overall.css">
         <link rel="stylesheet" href="css/Text.css">
         <link rel="stylesheet" href="css/Header.css">
+        <link rel="stylesheet" href="css/Links.css">
 
         <link rel="stylesheet" href="css/Index.css">
 
-        <!-- fonts ----------------------------- -->
+        <!-- fonts ------------------------------->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">    
     </head>
     <body>
-        <!-- header ----------------------------- -->
+        <!-- header ------------------------------->
         <header id="header"></header>
         
-        <!-- main ----------------------------- -->
-        <div id="main">
+        <!-- main ------------------------------->
+        <main>
             <!-- left, text and links -->
-            <div id="info" class="item">
+            <div id="info" class="item outer">
                 <!-- text -->
                 <div id="text" class="item">
                     <h2 id="hi" class="item big">Hi, I'm</h2>
@@ -37,26 +38,16 @@
                     </h4>
                 </div>
                 <!-- links -->
-                <div id="ref" class="item">
-                    <a href="Documents/CV.pdf" download="Amalie_Holten_CV">
-                        <button class="item">Downloade CV</button>
-                    </a>
-                    <a href="https://github.com/Amalie4010">
-                        <img class="item" src="Graphics/Logos/GitHub.svg" alt="GitHub">
-                    </a>
-                    <a href="https://www.linkedin.com/in/amalie-holten-nielsen-2ba37835b/">
-                        <img class="item" src="Graphics/Logos/LinkedIn.png" alt="LinkedIn">
-                    </a>
-                    <a href="mailto:amalie.holten.nielsen@outlook.dk">
-                        <img class="item last" src="Graphics/Icons/mail.svg" alt="Mail">
-                    </a>
-                </div>
+                <div id="links"></div>
             </div>
             <!-- right, portrait -->
-            <div id="portrait" class="item">
+            <div id="portrait" class="item outer">
                 <img src="./Graphics/Portrait.svg" alt="Portrait" id="portrait">
             </div>
-        </div>
+        </main>
+
+        <!-- scrips ------------------------------->
         <script src="Scripts/Header.js"></script>
+        <script src="Scripts/Links.js"></script>
     </body>
 </html>
