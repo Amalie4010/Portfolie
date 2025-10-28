@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0px;
+
+    background-color: rgb(30, 30, 68);
+}
+
+/* name ----------------------------------- */
+header #name {
+    margin: 0px;
+}
+
+/* links ----------------------------------- */
+header a {
+    height: 100%;
+    text-decoration: none;
+    color: rgb(235,235,235);
+}
+
+/* buttons ----------------------------------- */
+header div#buttons {
+    height: 100%;
+}
+header button {
+    height: 100%;
+    border-radius: 0px;
+    padding: auto;
+    border: none;
+}
+header div#menu{
+    height: 35%;
+    display: none;
+}
+
+/* to small for buttens ----------------------------------- */
+@media (max-width: 450px) {
+    header div#buttons {
+        display: none;
+    }
+    header div#menu{
+        height: 35%;
+        display: flex;
+    }
+}

@@ -1,0 +1,83 @@
+/* main ----------------------------------- */
+div#main {
+    padding: 6vh;
+    padding-left: 17vh;
+    padding-right: 17vh;
+    justify-content: center;
+    justify-items: center;
+}
+div#main div.item {
+ margin: 20px;
+}
+
+/* info ----------------------------------- */
+div#info {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+}
+
+/* text ----------------------------------- */
+div#text {
+    flex-direction: column;
+}
+div#text .item {
+    margin: 0px;
+}
+div#text #hi {
+    height: 18px;
+}
+div#text #name {
+    font-size: 40px;
+    margin-bottom: 17px;
+    min-width: 237px;
+}
+
+/* ref ----------------------------------- */
+div#ref {
+    align-items: center;
+}
+div#ref a img{
+    text-decoration: none;
+    height: 17px;
+}
+div#ref .item {
+    margin-right: 20px;
+}
+div#ref .item.last {
+    margin-right: 0px;
+}
+div#ref img {
+    height: 100%;
+}
+
+/* portrait ----------------------------------- */
+#portrait {
+    flex-shrink: 1;
+    width: 100%;
+    min-width: 220px;
+    max-width: 350px;
+    height: auto;
+}
+
+/* small screen ----------------------------------- */
+@media (max-width: 800px) {
+    div#main {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-left: 7vh;
+        padding-right: 7vh;
+    }
+    #portrait {
+        flex-shrink: 1;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+    div#main div#portrait {
+    margin-bottom: 0px;
+    }
+    div#main div#info {
+    margin-top: 0px;
+    }
+}

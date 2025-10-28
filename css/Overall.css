@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(39, 39, 89);
+    margin: 0px;
+}
+div {
+    display: flex;
+}
+
+/* buttons ----------------------------------- */
+button {
+    background-color: rgb(30, 30, 68);
+    border-radius: 50px;
+    border-style: none;
+    padding: 20px;
+}
+button:hover {
+    text-decoration: underline;
+}
